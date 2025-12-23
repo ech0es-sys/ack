@@ -2,3 +2,5 @@
 
 User-agent: *
 Disallow: /
+
+#you can exif this page now
