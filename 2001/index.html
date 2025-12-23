@@ -14,46 +14,33 @@
       background: #000;
 
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
 
-      color: rgba(95, 208, 255, 0.55);
-      font-family: segoe ui, monospace;
-    }
-
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1.4rem;
-      text-align: center;
-    }
-
-    p {
-      margin: 0;
-      font-size: clamp(1rem, 2.2vw, 1.3rem);
-      letter-spacing: 0.08em;
-      text-shadow:
-        0 0 4px rgba(95, 208, 255, 0.35),
-        0 0 10px rgba(95, 208, 255, 0.2);
-      user-select: none;
+      color: rgba(95, 208, 255, 0.4);
+      font-family: segoe ui;
     }
 
     img {
-      max-width: 70vw;
-      max-height: 50vh;
-      opacity: 0.85;
+      max-width: 80vw;
+      max-height: 80vh;
+      cursor: pointer;
+      filter:
+        drop-shadow(0 0 8px rgba(95, 208, 255, 0.4))
+        drop-shadow(0 0 20px rgba(95, 208, 255, 0.25));
       user-select: none;
-      pointer-events: none;
+    }
+
+    p {
+      margin-bottom: 1rem;
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <p>xvtp</p>
-    <img src="https://raw.githubusercontent.com/ech0es-sys/ack/refs/heads/main/2001/play.jpg" alt="">
-  </div>
+  <p>xvtp</p>
+  <img src="https://raw.githubusercontent.com/ech0es-sys/ack/refs/heads/main/2001/play.jpg">
 </body>
 </html>
 <!-- silence -->
